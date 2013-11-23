@@ -1,0 +1,129 @@
+Detailed installation log
+Starting at Fri Nov 22 05:37:52 UTC 2013
+Creating directory '/home/vagrant/Plone/zinstance/parts'.
+Creating directory '/home/vagrant/Plone/zinstance/develop-eggs'.
+Getting distribution for 'ZODB3==3.10.5'.
+In file included from src/BTrees/BTreeModuleTemplate.c:394:0,
+                 from src/BTrees/_IIBTree.c:34:
+src/BTrees/BucketTemplate.c: In function 'bucket_traverse':
+src/BTrees/BucketTemplate.c:1627:12: warning: variable 'len' set but not used [-Wunused-but-set-variable]
+In file included from src/BTrees/BTreeModuleTemplate.c:394:0,
+                 from src/BTrees/_IFBTree.c:34:
+src/BTrees/BucketTemplate.c: In function 'bucket_traverse':
+src/BTrees/BucketTemplate.c:1627:12: warning: variable 'len' set but not used [-Wunused-but-set-variable]
+In file included from src/BTrees/BTreeModuleTemplate.c:394:0,
+                 from src/BTrees/_fsBTree.c:83:
+src/BTrees/BucketTemplate.c: In function 'bucket_traverse':
+src/BTrees/BucketTemplate.c:1627:12: warning: variable 'len' set but not used [-Wunused-but-set-variable]
+In file included from src/BTrees/BTreeModuleTemplate.c:394:0,
+                 from src/BTrees/_LLBTree.c:36:
+src/BTrees/BucketTemplate.c: In function 'bucket_traverse':
+src/BTrees/BucketTemplate.c:1627:12: warning: variable 'len' set but not used [-Wunused-but-set-variable]
+In file included from src/BTrees/BTreeModuleTemplate.c:394:0,
+                 from src/BTrees/_LFBTree.c:36:
+src/BTrees/BucketTemplate.c: In function 'bucket_traverse':
+src/BTrees/BucketTemplate.c:1627:12: warning: variable 'len' set but not used [-Wunused-but-set-variable]
+Got ZODB3 3.10.5.
+Getting distribution for 'zope.interface==3.6.7'.
+Got zope.interface 3.6.7.
+Getting distribution for 'zope.security==3.7.4'.
+Got zope.security 3.7.4.
+Getting distribution for 'zope.proxy==3.6.1'.
+Got zope.proxy 3.6.1.
+Getting distribution for 'zope.i18nmessageid==3.5.3'.
+Got zope.i18nmessageid 3.5.3.
+Getting distribution for 'zope.container==3.11.2'.
+Got zope.container 3.11.2.
+Getting distribution for 'initgroups==2.13.0'.
+Got initgroups 2.13.0.
+Getting distribution for 'Record==2.13.0'.
+Got Record 2.13.0.
+Getting distribution for 'Products.ZCTextIndex==2.13.4'.
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+src/Products/ZCTextIndex/okascore.c: In function 'initokascore':
+src/Products/ZCTextIndex/okascore.c:127:12: warning: variable 'm' set but not used [-Wunused-but-set-variable]
+Got Products.ZCTextIndex 2.13.4.
+Getting distribution for 'Persistence==2.13.2'.
+Got Persistence 2.13.2.
+Getting distribution for 'MultiMapping==2.13.0'.
+Got MultiMapping 2.13.0.
+Getting distribution for 'Missing==2.13.1'.
+Got Missing 2.13.1.
+Getting distribution for 'ExtensionClass==2.13.2'.
+Got ExtensionClass 2.13.2.
+Getting distribution for 'DocumentTemplate==2.13.2'.
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+Got DocumentTemplate 2.13.2.
+Getting distribution for 'Acquisition==2.13.8'.
+Got Acquisition 2.13.8.
+Getting distribution for 'AccessControl==3.0.8'.
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+Got AccessControl 3.0.8.
+Installing instance.
+Getting distribution for 'Pillow==1.7.8'.
+warning: no previously-included files found matching '.hgignore'
+warning: no previously-included files found matching '.hgtags'
+warning: no previously-included files found matching 'BUILDME.bat'
+warning: no previously-included files found matching 'make-manifest.py'
+warning: no previously-included files found matching 'SHIP'
+warning: no previously-included files found matching 'SHIP.bat'
+warning: no previously-included files matching '*' found under directory 'Tests'
+zip_safe flag not set; analyzing archive contents...
+PIL.Image: module references __file__
+--------------------------------------------------------------------
+SETUP SUMMARY (Pillow 1.7.8 / PIL 1.1.7)
+--------------------------------------------------------------------
+version      1.7.8
+platform     linux2 2.7.3 (default, Sep 26 2013, 20:08:41)
+             [GCC 4.6.3]
+--------------------------------------------------------------------
+*** TKINTER support not available
+
+--- JPEG support available
+--- ZLIB (PNG/ZIP) support available
+*** FREETYPE2 support not available
+
+*** LITTLECMS support not available
+
+--------------------------------------------------------------------
+To add a missing option, make sure you have the required
+library, and set the corresponding ROOT variable in the
+setup.py script.
+
+
+To check the build, run the selftest.py script.
+Got Pillow 1.7.8.
+Getting distribution for 'lxml==2.3.6'.
+Building lxml version 2.3.6.
+Building without Cython.
+Using build configuration of libxslt 1.1.26
+Building against libxml2/libxslt in the following directory: /usr/lib/i386-linux-gnu
+Got lxml 2.3.6.
+Generated script '/home/vagrant/Plone/zinstance/bin/instance'.
+Generated interpreter '/home/vagrant/Plone/zinstance/parts/instance/bin/interpreter'.
+Installing repozo.
+Generated script '/home/vagrant/Plone/zinstance/bin/repozo'.
+Installing backup.
+Generated script '/home/vagrant/Plone/zinstance/bin/backup'.
+Generated script '/home/vagrant/Plone/zinstance/bin/fullbackup'.
+Generated script '/home/vagrant/Plone/zinstance/bin/snapshotbackup'.
+Generated script '/home/vagrant/Plone/zinstance/bin/restore'.
+Generated script '/home/vagrant/Plone/zinstance/bin/snapshotrestore'.
+Installing zopepy.
+Generated interpreter '/home/vagrant/Plone/zinstance/bin/zopepy'.
+Installing unifiedinstaller.
+Generated script '/home/vagrant/Plone/zinstance/bin/plonectl'.
+*************** PICKED VERSIONS ****************
+[versions]
+
+*************** /PICKED VERSIONS ***************
+Finished at Fri Nov 22 05:39:42 UTC 2013
